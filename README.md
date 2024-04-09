@@ -1,15 +1,10 @@
 <h1>Chess</h1>
 
-<h2>Description</h2>
-<br />
+<h2>Getting Started</h2>
+Download the latest setup.exe from releases or clone the repo and run 'npm i && npm start'.
 
-
-<h2>Languages and Utilities Used</h2>
-
-- <b></b> 
-
-<h2>Environments Used </h2>
-
-- <b> </b>
+<h2> Built With</h2>
 
 <h2>Program walk-through:</h2>
+
+<h2>Author</h2>
