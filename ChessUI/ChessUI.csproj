@@ -9,41 +9,53 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\bb.png" />
     <None Remove="Assets\BishopB.png" />
     <None Remove="Assets\BishopW.png" />
     <None Remove="Assets\Board.png" />
+    <None Remove="Assets\BrownSq.png" />
+    <None Remove="Assets\bw.png" />
     <None Remove="Assets\icon.ico" />
+    <None Remove="Assets\kib.png" />
     <None Remove="Assets\KingB.png" />
     <None Remove="Assets\KingW.png" />
+    <None Remove="Assets\kiw.png" />
+    <None Remove="Assets\knb.png" />
     <None Remove="Assets\KnightB.png" />
     <None Remove="Assets\KnightW.png" />
+    <None Remove="Assets\knw.png" />
     <None Remove="Assets\PawnB.png" />
     <None Remove="Assets\PawnW.png" />
+    <None Remove="Assets\pb.png" />
+    <None Remove="Assets\pw.png" />
+    <None Remove="Assets\qb.png" />
     <None Remove="Assets\QueenB.png" />
     <None Remove="Assets\QueenW.png" />
+    <None Remove="Assets\qw.png" />
+    <None Remove="Assets\rb.png" />
     <None Remove="Assets\RookB.png" />
     <None Remove="Assets\RookW.png" />
+    <None Remove="Assets\rw.png" />
+    <None Remove="Assets\WhiteSq.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ChessLogic\ChessLogic.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Assets\BishopB.png" />
-    <Resource Include="Assets\BishopW.png" />
+    <Resource Include="Assets\bb.png" />
     <Resource Include="Assets\Board.png" />
+    <Resource Include="Assets\BrownSq.png" />
+    <Resource Include="Assets\bw.png" />
     <Resource Include="Assets\icon.ico" />
-    <Resource Include="Assets\KingB.png" />
-    <Resource Include="Assets\KingW.png" />
-    <Resource Include="Assets\KnightB.png" />
-    <Resource Include="Assets\KnightW.png" />
-    <Resource Include="Assets\PawnB.png" />
-    <Resource Include="Assets\PawnW.png" />
-    <Resource Include="Assets\QueenB.png" />
-    <Resource Include="Assets\QueenW.png" />
-    <Resource Include="Assets\RookB.png" />
-    <Resource Include="Assets\RookW.png" />
+    <Resource Include="Assets\kib.png" />
+    <Resource Include="Assets\kiw.png" />
+    <Resource Include="Assets\knb.png" />
+    <Resource Include="Assets\knw.png" />
+    <Resource Include="Assets\pb.png" />
+    <Resource Include="Assets\pw.png" />
+    <Resource Include="Assets\qb.png" />
+    <Resource Include="Assets\qw.png" />
+    <Resource Include="Assets\rb.png" />
+    <Resource Include="Assets\rw.png" />
+    <Resource Include="Assets\WhiteSq.png" />
   </ItemGroup>
 
 </Project>
