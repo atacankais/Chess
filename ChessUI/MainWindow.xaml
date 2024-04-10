@@ -4,9 +4,110 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChessUI"
-        mc:Ignorable="d"
-        Title="Chess" Height="600" Width="600" Icon="Assets/icon.ico">
+        mc:Ignorable="d" Height="400" Width="400" ResizeMode="NoResize" WindowStyle="None">
+    
     <Grid>
+        
+        <!-- Columns 8x -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="50"/>
+        </Grid.ColumnDefinitions>
+        
+        <!--Rows 8x-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Brown Square Placement -->
+        <Image Source="Assets/BrownSq.png" Grid.Row="0" Grid.Column="1"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="0" Grid.Column="3"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="0" Grid.Column="5"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="0" Grid.Column="7"/>
+
+        <Image Source="Assets/BrownSq.png" Grid.Row="1" Grid.Column="0"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="1" Grid.Column="2"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="1" Grid.Column="4"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="1" Grid.Column="6"/>
+
+        <Image Source="Assets/BrownSq.png" Grid.Row="2" Grid.Column="1"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="2" Grid.Column="3"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="2" Grid.Column="5"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="2" Grid.Column="7"/>
+
+        <Image Source="Assets/BrownSq.png" Grid.Row="3" Grid.Column="0"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="3" Grid.Column="2"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="3" Grid.Column="4"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="3" Grid.Column="6"/>
+
+        <Image Source="Assets/BrownSq.png" Grid.Row="4" Grid.Column="1"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="4" Grid.Column="3"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="4" Grid.Column="5"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="4" Grid.Column="7"/>
+
+        <Image Source="Assets/BrownSq.png" Grid.Row="5" Grid.Column="0"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="5" Grid.Column="2"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="5" Grid.Column="4"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="5" Grid.Column="6"/>
+
+        <Image Source="Assets/BrownSq.png" Grid.Row="6" Grid.Column="1"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="6" Grid.Column="3"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="6" Grid.Column="5"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="6" Grid.Column="7"/>
+
+        <Image Source="Assets/BrownSq.png" Grid.Row="7" Grid.Column="0"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="7" Grid.Column="2"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="7" Grid.Column="4"/>
+        <Image Source="Assets/BrownSq.png" Grid.Row="7" Grid.Column="6"/>
+
+        <!--Black Pieces-->        
+        <Image Source="Assets/rb.png" Grid.Row="0" Grid.Column="0" Width="45" Height="45"/>
+        <Image Source="Assets/knb.png" Grid.Row="0" Grid.Column="1" Width="45" Height="45"/>
+        <Image Source="Assets/bb.png" Grid.Row="0" Grid.Column="2" Width="45" Height="45"/>
+        <Image Source="Assets/qb.png" Grid.Row="0" Grid.Column="3" Width="45" Height="45"/>
+        <Image Source="Assets/kib.png" Grid.Row="0" Grid.Column="4" Width="45" Height="45"/>
+        <Image Source="Assets/bb.png" Grid.Row="0" Grid.Column="5" Width="45" Height="45"/>
+        <Image Source="Assets/knb.png" Grid.Row="0" Grid.Column="6" Width="45" Height="45"/>
+        <Image Source="Assets/rb.png" Grid.Row="0" Grid.Column="7" Width="45" Height="45"/>
+        <Image Source="Assets/pb.png" Grid.Row="1" Grid.Column="0" Width="45" Height="45"/>
+        <Image Source="Assets/pb.png" Grid.Row="1" Grid.Column="1" Width="45" Height="45"/>
+        <Image Source="Assets/pb.png" Grid.Row="1" Grid.Column="2" Width="45" Height="45"/>
+        <Image Source="Assets/pb.png" Grid.Row="1" Grid.Column="3" Width="45" Height="45"/>
+        <Image Source="Assets/pb.png" Grid.Row="1" Grid.Column="4" Width="45" Height="45"/>
+        <Image Source="Assets/pb.png" Grid.Row="1" Grid.Column="5" Width="45" Height="45"/>
+        <Image Source="Assets/pb.png" Grid.Row="1" Grid.Column="6" Width="45" Height="45"/>
+        <Image Source="Assets/pb.png" Grid.Row="1" Grid.Column="7" Width="45" Height="45"/>
+
+        <!-- White Pieces -->
+        <Image Source="Assets/rw.png" Grid.Row="7" Grid.Column="0" Width="45" Height="45"/>
+        <Image Source="Assets/knw.png" Grid.Row="7" Grid.Column="1" Width="45" Height="45"/>
+        <Image Source="Assets/bw.png" Grid.Row="7" Grid.Column="2" Width="45" Height="45"/>
+        <Image Source="Assets/qw.png" Grid.Row="7" Grid.Column="3" Width="45" Height="45"/>
+        <Image Source="Assets/kiw.png" Grid.Row="7" Grid.Column="4" Width="45" Height="45"/>
+        <Image Source="Assets/bw.png" Grid.Row="7" Grid.Column="5" Width="45" Height="45"/>
+        <Image Source="Assets/knw.png" Grid.Row="7" Grid.Column="6" Width="45" Height="45"/>
+        <Image Source="Assets/rw.png" Grid.Row="7" Grid.Column="7" Width="45" Height="45"/>
+        <Image Source="Assets/pw.png" Grid.Row="6" Grid.Column="0" Width="45" Height="45"/>
+        <Image Source="Assets/pw.png" Grid.Row="6" Grid.Column="1" Width="45" Height="45"/>
+        <Image Source="Assets/pw.png" Grid.Row="6" Grid.Column="2" Width="45" Height="45"/>
+        <Image Source="Assets/pw.png" Grid.Row="6" Grid.Column="3" Width="45" Height="45"/>
+        <Image Source="Assets/pw.png" Grid.Row="6" Grid.Column="4" Width="45" Height="45"/>
+        <Image Source="Assets/pw.png" Grid.Row="6" Grid.Column="5" Width="45" Height="45"/>
+        <Image Source="Assets/pw.png" Grid.Row="6" Grid.Column="6" Width="45" Height="45"/>
+        <Image Source="Assets/pw.png" Grid.Row="6" Grid.Column="7" Width="45" Height="45"/>
 
     </Grid>
 </Window>

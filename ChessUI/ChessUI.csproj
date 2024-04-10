@@ -12,8 +12,6 @@
     <None Remove="Assets\BishopB.png" />
     <None Remove="Assets\BishopW.png" />
     <None Remove="Assets\Board.png" />
-    <None Remove="Assets\CursorB.cur" />
-    <None Remove="Assets\CursorW.cur" />
     <None Remove="Assets\icon.ico" />
     <None Remove="Assets\KingB.png" />
     <None Remove="Assets\KingW.png" />
@@ -25,7 +23,6 @@
     <None Remove="Assets\QueenW.png" />
     <None Remove="Assets\RookB.png" />
     <None Remove="Assets\RookW.png" />
-    <None Remove="Board.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -36,8 +33,6 @@
     <Resource Include="Assets\BishopB.png" />
     <Resource Include="Assets\BishopW.png" />
     <Resource Include="Assets\Board.png" />
-    <Resource Include="Assets\CursorB.cur" />
-    <Resource Include="Assets\CursorW.cur" />
     <Resource Include="Assets\icon.ico" />
     <Resource Include="Assets\KingB.png" />
     <Resource Include="Assets\KingW.png" />
@@ -49,7 +44,6 @@
     <Resource Include="Assets\QueenW.png" />
     <Resource Include="Assets\RookB.png" />
     <Resource Include="Assets\RookW.png" />
-    <Resource Include="Board.png" />
   </ItemGroup>
 
 </Project>
